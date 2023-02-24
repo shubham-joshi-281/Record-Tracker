@@ -1,0 +1,120 @@
+.notes-container {
+  display: flex;
+  width: 80%;
+  height: 90vh;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.notes {
+  height: 100px;
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 20px;
+  box-shadow: -1px -1px 4px 1px rgb(131, 142, 241) inset;
+  border: 1px solid rgb(102, 117, 252);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.in ,.txt{
+  width: 40%;
+  height: 50px;
+  border: 2px solid rgba(110, 109, 109, 0.671);
+  font-size: 15px;
+  outline: none;
+  line-height: 50px;
+  border-radius: 10px;
+  padding: 0px 10px;
+  box-shadow: 1px 1px 8px 1px grey;
+  word-wrap: break-word;
+  margin: 0px 20px;
+}
+
+.in::placeholder,.txt::placeholder {
+  font-size: 18px;
+  font-weight: 600;
+  color: red;
+}
+.btn {
+  padding: 0px 20px;
+  height: 50px;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.show {
+  width: 90%;
+  margin: 0px auto;
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: -1px -1px 4px 1px rgb(131, 142, 241) inset;
+}
+.show-list {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 10px auto;
+}
+.show-list li {
+  list-style: none;
+  word-wrap: break-word;
+  width: 40%;
+  margin: 10px 20px;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(165, 255, 145);
+  padding: 10px 10px;
+  outline: none;
+  font-size: 14px;
+}
+.show-list li span {
+  font-weight: 600;
+  font-size: 15px;
+}
+.show-btn {
+  padding: 0px 20px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+@media only screen and (max-width: 700px) {
+  .notes-container {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+  }
+  .notes {
+    width: 90%;
+    margin: 10px auto;
+    height: auto;
+  }
+  .in ,.txt{
+    width: 35%;
+    height: 50px;
+    margin: 10px 14px;
+  }
+  .show {
+    box-shadow: -1px -1px 4px 1px rgb(131, 142, 241) inset;
+    width: 90%;
+    margin: 10px auto;
+  }
+  .show-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: auto;
+  }
+  .show-list li {
+    width: 33%;
+    height: auto;
+  }
+}
