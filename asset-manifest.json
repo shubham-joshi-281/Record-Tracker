@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Record-Tracker/static/css/main.334fff90.css",
+    "main.js": "/Record-Tracker/static/js/main.85fef77f.js",
+    "index.html": "/Record-Tracker/index.html",
+    "main.334fff90.css.map": "/Record-Tracker/static/css/main.334fff90.css.map",
+    "main.85fef77f.js.map": "/Record-Tracker/static/js/main.85fef77f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.334fff90.css",
+    "static/js/main.85fef77f.js"
+  ]
+}
