@@ -16,9 +16,9 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-
 }
-.in ,.txt{
+.in,
+.txt {
   width: 40%;
   height: 50px;
   border: 2px solid rgba(110, 109, 109, 0.671);
@@ -32,7 +32,8 @@
   margin: 0px 20px;
 }
 
-.in::placeholder,.txt::placeholder {
+.in::placeholder,
+.txt::placeholder {
   font-size: 18px;
   font-weight: 600;
   color: red;
@@ -87,19 +88,31 @@
 }
 @media only screen and (max-width: 700px) {
   .notes-container {
-    width: 100%;
+    width: 95%;
     height: auto;
     margin: 0px auto;
   }
   .notes {
+    display: flex;
+    flex-direction: column;
     width: 90%;
     margin: 10px auto;
     height: auto;
   }
-  .in ,.txt{
-    width: 35%;
+  .in,
+  .txt {
+    width: 90%;
     height: 50px;
-    margin: 10px 14px;
+    margin: 10px auto;
+  }
+  .btn {
+    padding: 10px;
+    width: 50px;
+    margin-bottom: 10px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
   }
   .show {
     box-shadow: -1px -1px 4px 1px rgb(131, 142, 241) inset;
